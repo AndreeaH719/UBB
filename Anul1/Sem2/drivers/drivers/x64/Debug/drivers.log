@@ -1,0 +1,3 @@
+﻿  repo.cpp
+D:\visual_studio\drivers\repo.cpp(74,19): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  drivers.vcxproj -> D:\visual_studio\drivers\x64\Debug\drivers.exe
