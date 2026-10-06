@@ -1,0 +1,3 @@
+﻿  ui.cpp
+D:\visual_studio\music\ui.cpp(52,9): warning C4101: 'wins': unreferenced local variable
+  music.vcxproj -> D:\visual_studio\music\x64\Debug\music.exe

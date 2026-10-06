@@ -1,0 +1,3 @@
+﻿  ui.cpp
+D:\visual_studio\hw2\ui.cpp(61,22): warning C4101: 'pv': unreferenced local variable
+  hw2.vcxproj -> D:\visual_studio\hw2\x64\Debug\hw2.exe

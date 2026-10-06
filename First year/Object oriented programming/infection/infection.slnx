@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="infection.vcxproj" Id="c668920e-c1df-4eac-bcc0-50387240aca3" />
+</Solution>
