@@ -1,0 +1,4 @@
+﻿   Qt/MSBuild: 3.5.0.0
+   Qt: 6.11.0
+  shop.cpp
+  shop.vcxproj -> D:\visual_studio\shop\x64\Debug\shop.exe

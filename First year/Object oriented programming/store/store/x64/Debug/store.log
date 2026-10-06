@@ -1,0 +1,30 @@
+﻿  Appliance.cpp
+D:\visual_studio\store\Appliance.h(15,34): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Appliance.cpp')
+  
+  Controller.cpp
+D:\visual_studio\store\Appliance.h(15,34): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Controller.cpp')
+  
+  DishWasher.cpp
+D:\visual_studio\store\Appliance.h(15,34): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'DishWasher.cpp')
+  
+  Refrigerator.cpp
+D:\visual_studio\store\Appliance.h(15,34): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Refrigerator.cpp')
+  
+  main.cpp
+D:\visual_studio\store\Appliance.h(15,34): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+  service.cpp
+D:\visual_studio\store\Appliance.h(15,34): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'service.cpp')
+  
+  ui.cpp
+D:\visual_studio\store\Appliance.h(15,34): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'ui.cpp')
+  
+  Generating Code...
+  store.vcxproj -> D:\visual_studio\store\x64\Debug\store.exe

@@ -1,0 +1,5 @@
+Drink juice 4
+Drink water 3
+Dairy milk 1
+Snak chips 3
+df sg 5
