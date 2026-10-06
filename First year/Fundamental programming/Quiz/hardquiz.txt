@@ -1,0 +1,2 @@
+1, Which number is prime, 1, 2, 4, 2, hard
+3, What is a color, pink, apple, 5, pink, hard
