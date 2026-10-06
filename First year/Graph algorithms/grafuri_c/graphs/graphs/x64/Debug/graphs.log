@@ -1,0 +1,8 @@
+﻿  GraphRepo.cpp
+  GraphService.cpp
+C:\Users\Andreea\Desktop\grafuri_c\graphs\GraphService.cpp(175,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  GraphUi.cpp
+C:\Users\Andreea\Desktop\grafuri_c\graphs\GraphUi.cpp(165,37): warning C4101: 'e': unreferenced local variable
+  main.cpp
+  Generating Code...
+  graphs.vcxproj -> C:\Users\Andreea\Desktop\grafuri_c\graphs\x64\Debug\graphs.exe
