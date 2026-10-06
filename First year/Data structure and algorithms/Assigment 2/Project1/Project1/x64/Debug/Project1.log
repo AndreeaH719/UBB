@@ -1,0 +1,12 @@
+﻿  ExtendedTest.cpp
+C:\Users\Andreea\Desktop\DSA\Assigment 2\SortedIndexedList\ExtendedTest.cpp(100,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Andreea\Desktop\DSA\Assigment 2\SortedIndexedList\ExtendedTest.cpp(115,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Andreea\Desktop\DSA\Assigment 2\SortedIndexedList\ExtendedTest.cpp(129,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Andreea\Desktop\DSA\Assigment 2\SortedIndexedList\ExtendedTest.cpp(139,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Andreea\Desktop\DSA\Assigment 2\SortedIndexedList\ExtendedTest.cpp(247,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Andreea\Desktop\DSA\Assigment 2\SortedIndexedList\ExtendedTest.cpp(299,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ListIterator.cpp
+  ShortTest.cpp
+  SortedIndexeList.cpp
+  Generating Code...
+  Project1.vcxproj -> C:\Users\Andreea\Desktop\DSA\Assigment 2\Project1\x64\Debug\Project1.exe
