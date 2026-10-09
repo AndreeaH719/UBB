@@ -2,10 +2,10 @@ package Model;
 
 public class Bird implements Animal{
     float weight;
-    String name;
-    public Bird(String name, float weight)
+   // String name;
+    public Bird(float weight)
     {
-        this.name = name;
+
         this.weight = weight;
     }
     @Override
