@@ -1,7 +1,7 @@
 package Model;
 
 public class Bird implements Animal{
-    float weight;
+    private float weight;
    // String name;
     public Bird(float weight)
     {
@@ -12,5 +12,10 @@ public class Bird implements Animal{
     public float getWeight()
     {
             return weight;
+    }
+    @Override
+    public String toString()
+    {
+        return "Bird with " + weight + " kg";
     }
 }

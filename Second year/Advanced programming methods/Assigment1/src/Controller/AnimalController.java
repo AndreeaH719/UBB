@@ -49,4 +49,9 @@ public class AnimalController {
     {
         repo.removeAnimal(weight);
     }
+
+    public int getSize()
+    {
+        return repo.getSize();
+    }
 }
