@@ -31,7 +31,7 @@ public class AnimalRepo implements AnimalRepoInter{
     public void removeAnimal(float weight) throws Exception
     {
         if(weight <= 0)
-            throw new Exception("The weight must be >= 0");
+            throw new Exception("The weight must be > 0");
         for(int i = 0; i < size; i++)
             if(animals[i].getWeight() == weight)
             {
