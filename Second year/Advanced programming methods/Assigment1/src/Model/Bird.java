@@ -5,13 +5,12 @@ public class Bird implements Animal{
    // String name;
     public Bird(float weight)
     {
-
         this.weight = weight;
     }
     @Override
     public float getWeight()
     {
-            return weight;
+        return weight;
     }
     @Override
     public String toString()
