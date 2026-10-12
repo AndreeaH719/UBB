@@ -57,9 +57,9 @@ public class AnimalController {
         return repo.getAnimals();
     }
 
-    public void remove(float weight) throws Exception
+    public void remove(int poz) throws Exception
     {
-        repo.removeAnimal(weight);
+        repo.removeAnimal(poz);
     }
 
     public int getSize()

@@ -7,7 +7,7 @@ public class AnimalRepo implements AnimalRepoInter{
     private int size;
     public AnimalRepo()
     {
-        animals = new Animal[13];
+        animals = new Animal[10];
         size =0;
     }
     @Override
@@ -28,19 +28,17 @@ public class AnimalRepo implements AnimalRepoInter{
         return size;
     }
     @Override
-    public void removeAnimal(float weight) throws Exception
+    public void removeAnimal(int poz) throws Exception
     {
-        if(weight <= 0)
-            throw new Exception("The weight must be > 0");
-        int old_size = size;
+        if(poz < 0 || poz >= size)
+            throw new Exception("The position is incorrect");
         for(int i = 0; i < size; i++)
-            if(animals[i].getWeight() == weight)
+            if(i == poz)
             {
                 for(int j = i; j < size - 1; j++)
                     animals[j] = animals[j+1];
                 size--;
-                //return;
+                return;
             }
-        if(old_size == size) throw new Exception("Animal not found");
     }
 }

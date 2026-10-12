@@ -24,7 +24,6 @@ public class AnimalView {
             System.out.println(e.getMessage());
         }
 
-
         System.out.println("Adding cows...");
         try{
             animalController.addCow(81);
@@ -55,7 +54,6 @@ public class AnimalView {
         for(int  i = 0; i < animalController.getSize(); i++)
             System.out.println(animals[i]);
 
-
         System.out.println("\n");
         System.out.println("All the animals with weight greater than 3: ");
         try {
@@ -66,11 +64,10 @@ public class AnimalView {
             System.out.println(e.getMessage());
         }
 
-
         System.out.println("\n");
         System.out.println("Removing an animal: ");
         try{
-            animalController.remove(1);
+            animalController.remove(2);
             for(int  i = 0; i < animalController.getSize(); i++)
                 System.out.println(animals[i]);
         } catch (Exception e) {
