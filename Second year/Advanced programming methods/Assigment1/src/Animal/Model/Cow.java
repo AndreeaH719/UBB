@@ -1,6 +1,6 @@
-package Model;
+package Animal.Model;
 
-public class Cow implements Animal{
+public class Cow implements Animal {
     //String name;
     private float weight;
     public Cow(float weight)

@@ -1,19 +1,19 @@
-package Repo;
+package Animal.Repo;
 
-import Model.Animal;
+import Animal.Model.Animal;
 
-public class AnimalRepo implements AnimalRepoInter{
+public class AnimalRepo implements AnimalRepoInter {
     private Animal[] animals;
     private int size;
     public AnimalRepo()
     {
-        animals = new Animal[10];
+        animals = new Animal[12];
         size =0;
     }
     @Override
     public void addAnimal(Animal a) throws Exception
     {
-        if(size == animals.length)
+        if(size >= animals.length)
             throw new Exception("Repo is full");
         animals[size++] = a;
     }
@@ -31,14 +31,11 @@ public class AnimalRepo implements AnimalRepoInter{
     public void removeAnimal(int poz) throws Exception
     {
         if(poz < 0 || poz >= size)
-            throw new Exception("The position is incorrect");
-        for(int i = 0; i < size; i++)
-            if(i == poz)
-            {
-                for(int j = i; j < size - 1; j++)
-                    animals[j] = animals[j+1];
-                size--;
-                return;
-            }
+            throw new Exception("The position is invalid");
+        for(int j = poz; j < size - 1; j++)
+            animals[j] = animals[j+1];
+        size--;
+
+
     }
 }

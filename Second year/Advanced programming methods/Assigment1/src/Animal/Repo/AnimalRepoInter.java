@@ -1,6 +1,6 @@
-package Repo;
+package Animal.Repo;
 
-import Model.Animal;
+import Animal.Model.Animal;
 
 public interface AnimalRepoInter {
     void addAnimal(Animal a) throws Exception;

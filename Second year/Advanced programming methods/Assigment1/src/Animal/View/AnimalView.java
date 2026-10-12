@@ -1,7 +1,7 @@
-package View;
+package Animal.View;
 
-import Controller.AnimalController;
-import Model.Animal;
+import Animal.Controller.AnimalController;
+import Animal.Model.Animal;
 
 public class AnimalView {
     private AnimalController animalController;

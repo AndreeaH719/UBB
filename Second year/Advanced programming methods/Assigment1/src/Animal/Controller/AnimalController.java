@@ -1,11 +1,10 @@
-package Controller;
+package Animal.Controller;
 
-import Model.Animal;
-import Model.Bird;
-import Model.Cow;
-import Model.Pig;
-import Repo.AnimalRepo;
-import Repo.AnimalRepoInter;
+import Animal.Model.Animal;
+import Animal.Model.Bird;
+import Animal.Model.Cow;
+import Animal.Model.Pig;
+import Animal.Repo.AnimalRepoInter;
 
 public class AnimalController {
     private AnimalRepoInter repo;

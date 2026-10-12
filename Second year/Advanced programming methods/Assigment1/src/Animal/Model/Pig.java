@@ -1,11 +1,11 @@
-package Model;
+package Animal.Model;
 
-public class Bird implements Animal{
+public class Pig implements Animal {
     private float weight;
    // String name;
-    public Bird(float weight)
+    public Pig(float weight)
     {
-        this.weight = weight;
+        this.weight=weight;
     }
     @Override
     public float getWeight()
@@ -15,6 +15,6 @@ public class Bird implements Animal{
     @Override
     public String toString()
     {
-        return "Bird with " + weight + " kg";
+        return "Pig with " + weight + " kg";
     }
 }
