@@ -1,5 +1,6 @@
 package Animal.Repo;
 
+import Animal.Exceptions.CustomException;
 import Animal.Model.Animal;
 
 public class AnimalRepo implements AnimalRepoInter {
@@ -11,10 +12,10 @@ public class AnimalRepo implements AnimalRepoInter {
         size =0;
     }
     @Override
-    public void addAnimal(Animal a) throws Exception
+    public void addAnimal(Animal a) throws CustomException
     {
         if(size >= animals.length)
-            throw new Exception("Repo is full");
+            throw new CustomException("Repo is full");
         animals[size++] = a;
     }
     @Override
@@ -28,10 +29,10 @@ public class AnimalRepo implements AnimalRepoInter {
         return size;
     }
     @Override
-    public void removeAnimal(int poz) throws Exception
+    public void removeAnimal(int poz) throws CustomException
     {
         if(poz < 0 || poz >= size)
-            throw new Exception("The position is invalid");
+            throw new CustomException("The position is invalid");
         for(int j = poz; j < size - 1; j++)
             animals[j] = animals[j+1];
         size--;

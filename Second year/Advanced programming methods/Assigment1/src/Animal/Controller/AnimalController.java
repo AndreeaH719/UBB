@@ -1,5 +1,6 @@
 package Animal.Controller;
 
+import Animal.Exceptions.CustomException;
 import Animal.Model.Animal;
 import Animal.Model.Bird;
 import Animal.Model.Cow;
@@ -13,29 +14,29 @@ public class AnimalController {
         this.repo=repo;
     }
 
-    public void addBird(float weight) throws Exception
+    public void addBird(float weight) throws CustomException
     {
         if(weight <= 0)
-            throw new Exception("The weight must be > 0");
+            throw new CustomException("The weight must be > 0");
         Animal a = new Bird(weight);
         this.repo.addAnimal(a);
     }
-    public void addCow(float weight) throws Exception
+    public void addCow(float weight) throws CustomException
     {
         if(weight <= 0)
-            throw new Exception("The weight must be > 0");
+            throw new CustomException("The weight must be > 0");
         Animal a = new Cow(weight);
         this.repo.addAnimal(a);
     }
-    public void addPig(float weight) throws Exception
+    public void addPig(float weight) throws CustomException
     {
         if(weight <= 0)
-            throw new Exception("The weight must be > 0");
+            throw new CustomException("The weight must be > 0");
         Animal a = new Pig(weight);
         this.repo.addAnimal(a);
     }
 
-    public Animal[] filterAnimals() throws Exception
+    public Animal[] filterAnimals() throws CustomException
     {
         Animal[] animalsFil = new Animal[repo.getSize()];
         int s = 0;
@@ -47,7 +48,7 @@ public class AnimalController {
                 found = true;
             }
         if(found == false)
-            throw new Exception("There isn t an animal with this property");
+            throw new CustomException("There isn t an animal with this property");
         return animalsFil;
     }
 
@@ -56,7 +57,7 @@ public class AnimalController {
         return repo.getAnimals();
     }
 
-    public void remove(int poz) throws Exception
+    public void remove(int poz) throws CustomException
     {
         repo.removeAnimal(poz);
     }
